@@ -12,7 +12,7 @@ struct Mahasiswa {
 
 int main()
 {
-	Mahasiswa mhs1,mhs2;
+	Mahasiswa mhs1, mhs2;
 
 	mhs1.nim = "20220140129";
 	mhs1.nama = "adam";
@@ -31,16 +31,14 @@ int main()
 	cout << "\nNim : " << mhs1.nim;
 	cout << "\nNama : " << mhs1.nama;
 	cout << "\nAlamat : " << mhs1.alamat;
-	cout << "\nUmur : " << mhs1.umur << endl;
+	cout << "\nUmur : " << mhs1.umur;
 
 	cout << "\nNim : " << mhs2.nim;
 	cout << "\nNama : " << mhs2.nama;
 	cout << "\nAlamat : " << mhs2.alamat;
 	cout << "\nUmur : " << mhs2.umur;
-
-
-
 	
+
 
 }
 
