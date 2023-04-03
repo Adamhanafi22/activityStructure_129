@@ -35,13 +35,9 @@ int main()
 
 	cout << "\nNim : " << mhs.nim;
 	cout << "\nNama : " << mhs.nama;
-	cout 
-
-	
-
-
-	
+	cout << "\nNdesa : " << mhs.alamat.desa;
+	cout << "\nNkota : " << mhs.alamat.kota;
+	cout << "\nUmur : " << mhs.umur;
 
 
-	
 }
